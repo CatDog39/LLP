@@ -50,7 +50,14 @@ public class DIA_SEMANA {
                             }
                             else
                             {
-                                
+                                if(ndia == 7)
+                                {
+                                    System.out.println("DOMINGO");
+                                }
+                                else
+                                {
+                                    System.out.println("ERROr, ESTA MAL! NI VOLVIENDO A NACER SIRVES JAJAJA8");
+                                }
                             }
                         }
                     }
